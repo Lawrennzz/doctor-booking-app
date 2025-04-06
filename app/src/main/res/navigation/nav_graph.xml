@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.uilover.project1983.Fragment.MainFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/fragment_main" >
+        
+        <action
+            android:id="@+id/action_mainFragment_to_topDoctorsFragment"
+            app:destination="@id/topDoctorsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/topDoctorsFragment"
+        android:name="com.uilover.project1983.Fragment.TopDoctorsFragment"
+        android:label="Top Doctors"
+        tools:layout="@layout/fragment_top_doctors" >
+        
+        <action
+            android:id="@+id/action_topDoctorsFragment_to_detailFragment"
+            app:destination="@id/detailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.uilover.project1983.Fragment.DetailFragment"
+        android:label="Doctor Details"
+        tools:layout="@layout/fragment_detail" >
+        
+        <action
+            android:id="@+id/action_detailFragment_to_appointmentFragment"
+            app:destination="@id/appointmentFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentFragment"
+        android:name="com.uilover.project1983.Fragment.AppointmentFragment"
+        android:label="Book Appointment"
+        tools:layout="@layout/fragment_appointment" >
+        
+        <action
+            android:id="@+id/action_appointmentFragment_to_appointmentConfirmationFragment"
+            app:destination="@id/appointmentConfirmationFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/appointmentConfirmationFragment"
+        android:name="com.uilover.project1983.Fragment.AppointmentConfirmationFragment"
+        android:label="Appointment Confirmation"
+        tools:layout="@layout/fragment_appointment_confirmation" >
+        
+        <action
+            android:id="@+id/action_appointmentConfirmationFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/wishlistFragment"
+        android:name="com.uilover.project1983.Fragment.WishlistFragment"
+        android:label="Wishlist"
+        tools:layout="@layout/fragment_wishlist" >
+        
+        <action
+            android:id="@+id/action_wishlistFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+</navigation>

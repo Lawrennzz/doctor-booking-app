@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors -->
+    <color name="app_black">#FF000000</color>
+    <color name="app_white">#FFFFFFFF</color>
+    <color name="app_purple_500">#9868d3</color>
+    <color name="app_purple_100">#f0e9fa</color>
+    <color name="app_purple_700">#6735a4</color>
+    <color name="app_purple_900">#4a217a</color>
+    <color name="app_grey">#acacac</color>
+
+    <!-- Light theme colors -->
+    <color name="app_background">#FFFFFF</color>
+    <color name="app_surface">#FFFFFF</color>
+    <color name="app_onBackground">#000000</color>
+    <color name="app_onSurface">#000000</color>
+    <color name="app_primary_500">#6200EE</color>
+    <color name="app_primary_700">#3700B3</color>
+    <color name="app_primary_900">#25007a</color>
+    <color name="app_secondary_500">#03DAC6</color>
+    <color name="app_secondary_700">#018786</color>
+    <color name="app_secondary_900">#005652</color>
+    <color name="app_error">#B00020</color>
+    <color name="app_onError">#FFFFFF</color>
+    <color name="app_onPrimary">#FFFFFF</color>
+    <color name="app_onSecondary">#000000</color>
+
+    <!-- Dark theme colors -->
+    <color name="app_dark_background">#121212</color>
+    <color name="app_dark_surface">#1e1e1e</color>
+    <color name="app_dark_onBackground">#FFFFFF</color>
+    <color name="app_dark_onSurface">#FFFFFF</color>
+
+    <!-- Appointment confirmation layout colors -->
+    <color name="app_blue">#2196F3</color>
+    <color name="app_green">#4CAF50</color>
+    <color name="app_green_900">#1b5e20</color>
+    <color name="appointment_grey">#757575</color>
+    <color name="button_gray">#E0E0E0</color>
+    <color name="button_blue">#2196F3</color>
+    <color name="button_blue_dark">#1976D2</color>
+    <color name="button_gray_dark">#BDBDBD</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

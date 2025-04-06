@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic colors -->
+    <color name="app_black">#FF000000</color>
+    <color name="app_white">#FFFFFFFF</color>
+    <color name="app_purple_500">#9868d3</color>
+    <color name="app_purple_100">#f0e9fa</color>
+    <color name="app_purple_700">#6735a4</color>
+    <color name="app_grey">#acacac</color>
+
+    <!-- Dark theme colors -->
+    <color name="app_background">#121212</color>
+    <color name="app_surface">#121212</color>
+    <color name="app_onBackground">#FFFFFF</color>
+    <color name="app_onSurface">#FFFFFF</color>
+    <color name="app_primary_500">#BB86FC</color>
+    <color name="app_primary_700">#9E57FF</color>
+    <color name="app_secondary_500">#03DAC6</color>
+    <color name="app_secondary_700">#018786</color>
+    <color name="app_error">#CF6679</color>
+    <color name="app_onError">#FFFFFF</color>
+    <color name="app_onPrimary">#FFFFFF</color>
+    <color name="app_onSecondary">#000000</color>
+</resources>
