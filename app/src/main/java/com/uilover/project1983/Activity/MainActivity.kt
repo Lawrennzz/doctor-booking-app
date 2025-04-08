@@ -6,6 +6,7 @@ import android.text.Editable
 import android.text.TextWatcher
 import android.view.View
 import android.widget.LinearLayout
+import android.widget.Toast
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.uilover.project1983.Adapter.CategoryAdapter
@@ -84,5 +85,13 @@ class MainActivity : BaseActivity() {
 
     fun onExplorerClick(view: View) {
         startActivity(Intent(this, TopDoctorsActivity::class.java))
+    }
+
+    fun onAccountClick(view: View) {
+        try {
+            startActivity(Intent(this, AccountActivity::class.java))
+        } catch (e: Exception) {
+            Toast.makeText(this, "Error opening account: ${e.message}", Toast.LENGTH_SHORT).show()
+        }
     }
 }

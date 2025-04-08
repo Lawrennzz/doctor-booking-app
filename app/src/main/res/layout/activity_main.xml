@@ -250,14 +250,13 @@ android:id="@+id/doctorListTxt"
                 app:tint="@color/black" />
 
             <TextView
-                android:id="@+id/explorerTxt"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="4dp"
                 android:text="Explorer"
-                android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -324,9 +323,11 @@ android:id="@+id/doctorListTxt"
             android:orientation="vertical"
             android:clickable="true"
             android:focusable="true"
-            android:foreground="?attr/selectableItemBackground">
+            android:foreground="?attr/selectableItemBackground"
+            android:onClick="onAccountClick">
 
             <ImageView
+                android:id="@+id/accountIcon"
                 android:layout_width="22dp"
                 android:layout_height="22dp"
                 android:layout_gravity="center"
@@ -335,13 +336,13 @@ android:id="@+id/doctorListTxt"
                 app:tint="@color/black" />
 
             <TextView
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center"
                 android:layout_marginTop="4dp"
                 android:text="Account"
-                android:textAlignment="center"
                 android:textColor="@color/black"
-                android:textSize="10sp" />
+                android:textSize="12sp" />
         </LinearLayout>
     </LinearLayout>
         </com.google.android.material.bottomnavigation.BottomNavigationView>
